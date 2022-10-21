@@ -17,13 +17,30 @@
    }
    
    .bandeira {
-       position: relative;
-       width: 300px;
-       height: 200px;
-   }
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  .brasil {
+    background-color: #009c37;
+    display: grid;
+    place-items: center;
+  }
+  
+  .brasil_L {
+    background-color: #fde000;
+    width: 80%;
+    height: 70%;
+    clip-path: polygon(51% 0%, 100% 50%, 51% 100%, 0% 50%);
+  }
 
-   .brasil {
-    
-   }
+  .brasilLogo {
 
-
+    border-radius: 36px;
+    position: absolute;
+    inset: 0;
+    width: 80px;
+    margin: auto;
+  }
