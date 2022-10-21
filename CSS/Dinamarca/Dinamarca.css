@@ -42,5 +42,6 @@ h1 {
 .dinamarca>.linhaHorizontal{
     background-color: white;
     position: relative;
-    
+    height: 35px;
+    margin-top: -120px;
 }
